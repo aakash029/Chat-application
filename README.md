@@ -1,5 +1,5 @@
 # Chat-application
-Project Structure
+# Project Structure
 
 .
 ├── server
@@ -18,7 +18,7 @@ client/ChatClient.java: This is the client application that connects to the serv
  #Features
  
 
- #Multi-client Support
+ # Multi-client Support
 
 The server can handle multiple clients concurrently using threads and a thread-safe set.
 
@@ -46,7 +46,7 @@ All interactions are done via standard input/output.
 
 Easy to extend (e.g., commands like /list, /whisper).
 
-#How to Run
+# How to Run
 
 # Prerequisites
 
@@ -54,13 +54,13 @@ Java 8 or later
 
 Terminal or command prompt
 
- Compilation
+ # Compilation
  
 In the root directory:
 
 javac server/ChatServer.java client/ChatClient.java
 
-#Start the Server
+# Start the Server
 
 java server.ChatServer
 
@@ -79,7 +79,7 @@ Enter your username:
 
 Then you can start chatting!
 
-Future Enhancements
+# Future Enhancements
 
 Add private messaging (/w username message)
 
@@ -89,6 +89,6 @@ Add message timestamps
 
 GUI client using Swing or JavaFX
 
-License
+# License
 
 This project is open-source and free to use for learning or enhancement purposes.
